@@ -1,9 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './Components/Navbar.js';
+import Skills from './Components/Skills.js';
+import Experience from './Components/Experience.js';
+import About from './Components/About.js';
+import Home from './Components/Home.js';
+
+
 
 function App() {
   return (
     <div className="App">
+      <NavBar></NavBar>
+      <Home></Home>
+      <About></About>
+      <Skills></Skills>
+      <Experience></Experience>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
